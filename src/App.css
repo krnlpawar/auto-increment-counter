@@ -1,0 +1,44 @@
+.counter-container {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter-display {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.counter-controls {
+  display: flex;
+  justify-content: space-around;
+}
+
+.start-button,
+.pause-button,
+.clear-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.pause-button {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.clear-button {
+  background-color: #f44336;
+  color: #fff;
+}
